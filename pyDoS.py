@@ -13,7 +13,7 @@ bytes = random._urandom(1024)
 sent = 0
 
 print("INSTALANDO PROGRAMAS NECESSARIOS...")
-os.system("sudo apt-get install figlet")
+os.system("sudo apt-get install figlet -y")
 time.sleep( 3 )
 os.system("clear")
 os.system("figlet DoS")
