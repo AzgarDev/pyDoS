@@ -28,7 +28,9 @@ while True:
 		client.sendto(bytes,(ip, port))
 		sent = sent + 1
 		print("Foram lançados %s pacotes para o ip %s pela a porta %s "%(sent, ip, port))
-
+		
+		time.sleep(0.00001)
+		
 	except KeyboardInterrupt:
 	    sys.exit()
 if __name__ == '__main__':
